@@ -1,21 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
+function toggleMenu() { document.getElementById('nav').classList.toggle('active'); }
 
-    const content = document.getElementById("content");
-
-    const sections = [
-        "sections/home.html",
-        "sections/about.html",
-        "sections/skills.html",
-        "sections/projects.html",
-        "sections/contact.html"
-    ];
-
-    sections.forEach(section => {
-        fetch(section)
-            .then(response => response.text())
-            .then(data => {
-                content.innerHTML += data;
-            });
-    });
-
-});
+onload = function () {
+    var e = document.getElementById('typed-name'), n = "Christopher Raper", i = 0;
+    if (!e) return;
+    setInterval(() => cursor.style.opacity ^= 1, 500);
+    (function t() { i < n.length && (e.textContent += n[i++], setTimeout(t, 100)); })();
+};

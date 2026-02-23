@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <div class="logo">CR</div>
+    <div class="logo">Portfolio</div>
     <nav id="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -20,22 +20,93 @@
     <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 </header>
 
+<!-- ========== MINIMALIST VIEW ========== -->
 <section id="skills" class="section dark">
     <h2>Technical Skills</h2>
-    <div class="skills-container">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">Laravel</div>
-        <div class="skill">React</div>
-        <div class="skill">MySQL</div>
-        <div class="skill">Django</div>
-        <div class="skill">Git</div>
+    <p class="section-subtitle">A snapshot of the technologies I work with every day.</p>
+
+    <!-- Frontend -->
+    <div class="skill-category">
+        <h3 class="category-title">Frontend</h3>
+        <p class="category-value">Building responsive, accessible UIs with modern frameworks.</p>
+        <div class="skills-container">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript (ES6+)</div>
+            <div class="skill">React</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">Tailwind CSS</div>
+        </div>
+    </div>
+
+    <!-- Backend -->
+    <div class="skill-category">
+        <h3 class="category-title">Backend</h3>
+        <p class="category-value">Designing secure APIs and scalable server-side architectures.</p>
+        <div class="skills-container">
+            <div class="skill">PHP</div>
+            <div class="skill">Laravel</div>
+            <div class="skill">Python</div>
+            <div class="skill">Django</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">REST APIs</div>
+        </div>
+    </div>
+
+    <!-- Databases -->
+    <div class="skill-category">
+        <h3 class="category-title">Databases</h3>
+        <p class="category-value">Structuring and optimizing data for performance and reliability.</p>
+        <div class="skills-container">
+            <div class="skill">MySQL</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">SQLite</div>
+        </div>
+    </div>
+
+    <!-- Tools & DevOps -->
+    <div class="skill-category">
+        <h3 class="category-title">Tools &amp; DevOps</h3>
+        <p class="category-value">Streamlining workflows with version control, CI/CD, and cloud services.</p>
+        <div class="skills-container">
+            <div class="skill">Git &amp; GitHub</div>
+            <div class="skill">VS Code</div>
+            <div class="skill">NPM</div>
+            <div class="skill">Composer</div>
+            <div class="skill">Postman</div>
+            <div class="skill">Linux CLI</div>
+        </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="skill-category">
+        <h3 class="category-title">Soft Skills</h3>
+        <p class="category-value">Collaborating effectively and communicating solutions clearly.</p>
+        <div class="skills-container">
+            <div class="skill soft">Problem-Solving</div>
+            <div class="skill soft">Team Collaboration</div>
+            <div class="skill soft">Time Management</div>
+            <div class="skill soft">Communication</div>
+            <div class="skill soft">Adaptability</div>
+        </div>
+    </div>
+
+    <!-- Currently Learning -->
+    <div class="skill-category">
+        <h3 class="category-title">Currently Learning</h3>
+        <p class="category-value">Expanding my toolkit to stay ahead of the curve.</p>
+        <div class="skills-container">
+            <div class="skill learning">TypeScript</div>
+            <div class="skill learning">Docker</div>
+            <div class="skill learning">AWS</div>
+            <div class="skill learning">Next.js</div>
+        </div>
     </div>
 </section>
 
+
 <footer>
-    <p>© 2026 Christopher Raper | Software Developer</p>
+    <p>&copy; 2026 Christopher Raper | Software Developer</p>
 </footer>
 
 <script src="script.js"></script>
