@@ -11,7 +11,11 @@ body {
     line-height: 1.6;
 }
 
-/* ===== HEADER / NAV ===== */
+
+
+
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -59,7 +63,13 @@ nav a.active {
     color: #333;
 }
 
-/* ===== HERO / HOME ===== */
+
+
+
+
+
+
+
 .hero {
     height: 100vh;
     display: flex;
@@ -135,7 +145,17 @@ nav a.active {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* ===== SECTIONS ===== */
+
+
+
+
+
+
+
+
+
+
+
 .section {
     padding: 100px 50px;
     text-align: center;
@@ -162,7 +182,12 @@ nav a.active {
     color: #333;
 }
 
-/* ===== ABOUT VERSIONS ===== */
+
+
+
+
+
+
 .about-version {
     max-width: 700px;
     margin: 0 auto 40px;
@@ -204,7 +229,7 @@ nav a.active {
     margin-bottom: 0;
 }
 
-/* ===== SKILLS ===== */
+
 .section-subtitle {
     font-size: 15px;
     color: #888;
@@ -276,7 +301,15 @@ nav a.active {
     border-color: #3498db;
 }
 
-/* ===== DETAILED BREAKDOWN ===== */
+
+
+
+
+
+
+
+
+
 .detail-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -328,7 +361,17 @@ nav a.active {
     color: #2c3e50;
 }
 
-/* ===== PROJECTS ===== */
+
+
+
+
+
+
+
+
+
+
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -405,7 +448,20 @@ form button:hover {
     background: #3498db;
 }
 
-/* ===== FOOTER ===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     text-align: center;
     padding: 25px;
@@ -415,7 +471,16 @@ footer {
     border-top: 1px solid #eee;
 }
 
-/* ===== RESPONSIVE ===== */
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 768px) {
     header {
         padding: 15px 25px;
